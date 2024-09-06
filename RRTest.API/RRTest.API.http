@@ -1,0 +1,14 @@
+@RRTest.API_HostAddress = http://localhost:5016
+
+//Create book
+POST {{RRTest.API_HostAddress}}/api/books
+Content-Type: application/json
+{
+  "title": "Brott och straff",
+  "author": "Fjodor Dostojevskij",
+  "releaseYear": 1866,
+  "releaseMonth": 12,
+  "releaseDay": 1
+}
+
+###
